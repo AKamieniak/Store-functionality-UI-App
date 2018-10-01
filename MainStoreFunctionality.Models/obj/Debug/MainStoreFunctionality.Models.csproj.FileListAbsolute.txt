@@ -1,0 +1,6 @@
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.Models\bin\Debug\MainStoreFunctionality.Models.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.Models\bin\Debug\MainStoreFunctionality.Models.pdb
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.Models\obj\Debug\MainStoreFunctionality.Models.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.Models\obj\Debug\MainStoreFunctionality.Models.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.Models\obj\Debug\MainStoreFunctionality.Models.pdb
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality.Models\obj\Debug\MainStoreFunctionality.Models.csprojAssemblyReference.cache

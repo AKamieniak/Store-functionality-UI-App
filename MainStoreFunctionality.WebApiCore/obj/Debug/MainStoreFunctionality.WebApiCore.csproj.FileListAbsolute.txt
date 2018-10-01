@@ -1,0 +1,16 @@
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\MainStoreFunctionality.WebApiCore.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\MainStoreFunctionality.WebApiCore.pdb
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\Newtonsoft.Json.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\Newtonsoft.Json.xml
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\obj\Debug\MainStoreFunctionality.WebApiCore.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\obj\Debug\MainStoreFunctionality.WebApiCore.csproj.CopyComplete
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\obj\Debug\MainStoreFunctionality.WebApiCore.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\obj\Debug\MainStoreFunctionality.WebApiCore.pdb
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\MainStoreFunctionality.Models.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\MainStoreFunctionality.Models.pdb
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\System.Net.Http.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\System.Security.Cryptography.Algorithms.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\System.Security.Cryptography.Encoding.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\System.Security.Cryptography.Primitives.dll
+c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality.WebApiCore\obj\Debug\MainStoreFunctionality.WebApiCore.csprojAssemblyReference.cache

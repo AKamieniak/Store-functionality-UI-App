@@ -1,0 +1,59 @@
+﻿using MainStoreFunctionality.WebApiCore;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace MainStoreFunctionality
+{
+    public partial class FormGetEmployees : Form
+    {
+        private readonly IWebApiCoreClient _webApiCoreClient;
+
+        public FormGetEmployees()
+        {
+            _webApiCoreClient = Bootstrapper.container.GetInstance<IWebApiCoreClient>();
+            AddShops();
+            InitializeComponent();  
+        }
+
+        private async void AddShops()
+        {
+            //---get Shops from database and add to listbox---
+            var shops = await _webApiCoreClient.GetShops();
+            foreach (var item in shops)
+            {
+                listBoxShops.Items.Add($"{item.Id} {item.Name} {item.City}");
+            }
+        }
+
+        private async void btnSearch_Click(object sender, EventArgs e)
+        {
+            richTextBoxGetEmployees.Clear();
+            int id = Convert.ToInt32(listBoxShops.SelectedIndex);
+            
+
+            var employees = await _webApiCoreClient.GetEmployees(id);
+
+            foreach (var employee in employees)
+            {
+                string text = $"{employee.Id} {employee.Name }  {employee.Surname}  {employee.PositionId}";
+                if (!string.IsNullOrWhiteSpace(richTextBoxGetEmployees.Text))
+                {
+                    richTextBoxGetEmployees.AppendText("\r\n" + text);
+                }
+                else
+                {
+                    richTextBoxGetEmployees.AppendText(text);
+                }
+            }
+
+            richTextBoxGetEmployees.ScrollToCaret();
+        }
+    }
+}
