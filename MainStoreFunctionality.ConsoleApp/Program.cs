@@ -31,7 +31,7 @@ namespace MainStoreFunctionality.ConsoleApp
         public void Test()
         {
             var client = new WebApiCoreClient();
-            var a = client.GetAllEmployees(2).Result;
+            var a = client.GetEmployeesByShop(2).Result;
             foreach (var item in a)
             {
                 Console.WriteLine(item.Name, " ",item.Surname);

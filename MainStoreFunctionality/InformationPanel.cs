@@ -1,5 +1,4 @@
-﻿using MainStoreFunctionality.WebApiCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,22 +17,26 @@ namespace MainStoreFunctionality
             InitializeComponent();
         }
 
-        private void btnGetEmployees_Click(object sender, EventArgs e)
+        private void btnEmployees_Click(object sender, EventArgs e)
         {
-            FormGetEmployees formGetEmployees = new FormGetEmployees();
-            formGetEmployees.Show();
+            EmployeesPanel employeesPanel = new EmployeesPanel();
+            employeesPanel.Show();
         }
 
-        private void btnAddEmployee_Click(object sender, EventArgs e)
+        private void btnShops_Click(object sender, EventArgs e)
         {
-            FormAddEmployee formAddEmployee = new FormAddEmployee();
-            formAddEmployee.Show();
+            ShopsPanel shopsPanel = new ShopsPanel();
+            shopsPanel.Show();
         }
 
-        private void btnDeleteEmployee_Click(object sender, EventArgs e)
+        private void btnPositions_Click(object sender, EventArgs e)
         {
-            FormDeleteEmployee formDeleteEmployee = new FormDeleteEmployee();
-            formDeleteEmployee.Show();
+
+        }
+
+        private void linkLabelLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

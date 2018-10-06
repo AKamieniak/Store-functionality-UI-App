@@ -19,7 +19,7 @@ namespace MainStoreFunctionality.WebApiCore
 
         //--------------------------------Employees-------------------------------------------------------------------
 
-        public async Task<List<Employee>> GetAllEmployees(int shopId)
+        public async Task<List<Employee>> GetEmployeesByShop(int shopId)
         {
             var response = await _client.GetAsync(String.Format(WebApiCoreUrls.GetEmployeesbyShopUrl, shopId));
             var content = response.IsSuccessStatusCode ? await response.Content.ReadAsStringAsync() : String.Empty;

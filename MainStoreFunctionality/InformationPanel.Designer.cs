@@ -28,46 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGetEmployees = new System.Windows.Forms.Button();
-            this.btnAddEmployee = new System.Windows.Forms.Button();
-            this.btnDeleteEmployee = new System.Windows.Forms.Button();
+            this.btnPositions = new System.Windows.Forms.Button();
+            this.btnShops = new System.Windows.Forms.Button();
+            this.btnEmployees = new System.Windows.Forms.Button();
+            this.linkLabelLogin = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // btnGetEmployees
+            // btnPositions
             // 
-            this.btnGetEmployees.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnGetEmployees.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnGetEmployees.Location = new System.Drawing.Point(204, 12);
-            this.btnGetEmployees.Name = "btnGetEmployees";
-            this.btnGetEmployees.Size = new System.Drawing.Size(330, 111);
-            this.btnGetEmployees.TabIndex = 0;
-            this.btnGetEmployees.Text = "Get Employees";
-            this.btnGetEmployees.UseVisualStyleBackColor = false;
-            this.btnGetEmployees.Click += new System.EventHandler(this.btnGetEmployees_Click);
+            this.btnPositions.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPositions.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnPositions.Location = new System.Drawing.Point(194, 298);
+            this.btnPositions.Name = "btnPositions";
+            this.btnPositions.Size = new System.Drawing.Size(330, 114);
+            this.btnPositions.TabIndex = 5;
+            this.btnPositions.Text = "Positions";
+            this.btnPositions.UseVisualStyleBackColor = false;
+            this.btnPositions.Click += new System.EventHandler(this.btnPositions_Click);
             // 
-            // btnAddEmployee
+            // btnShops
             // 
-            this.btnAddEmployee.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAddEmployee.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnAddEmployee.Location = new System.Drawing.Point(204, 144);
-            this.btnAddEmployee.Name = "btnAddEmployee";
-            this.btnAddEmployee.Size = new System.Drawing.Size(330, 113);
-            this.btnAddEmployee.TabIndex = 1;
-            this.btnAddEmployee.Text = "Add Employee";
-            this.btnAddEmployee.UseVisualStyleBackColor = false;
-            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
+            this.btnShops.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnShops.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnShops.Location = new System.Drawing.Point(194, 161);
+            this.btnShops.Name = "btnShops";
+            this.btnShops.Size = new System.Drawing.Size(330, 113);
+            this.btnShops.TabIndex = 4;
+            this.btnShops.Text = "Shops";
+            this.btnShops.UseVisualStyleBackColor = false;
+            this.btnShops.Click += new System.EventHandler(this.btnShops_Click);
             // 
-            // btnDeleteEmployee
+            // btnEmployees
             // 
-            this.btnDeleteEmployee.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDeleteEmployee.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnDeleteEmployee.Location = new System.Drawing.Point(204, 275);
-            this.btnDeleteEmployee.Name = "btnDeleteEmployee";
-            this.btnDeleteEmployee.Size = new System.Drawing.Size(330, 108);
-            this.btnDeleteEmployee.TabIndex = 2;
-            this.btnDeleteEmployee.Text = "Delete Employee";
-            this.btnDeleteEmployee.UseVisualStyleBackColor = false;
-            this.btnDeleteEmployee.Click += new System.EventHandler(this.btnDeleteEmployee_Click);
+            this.btnEmployees.AllowDrop = true;
+            this.btnEmployees.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnEmployees.Font = new System.Drawing.Font("MS Reference Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnEmployees.Location = new System.Drawing.Point(194, 29);
+            this.btnEmployees.Name = "btnEmployees";
+            this.btnEmployees.Size = new System.Drawing.Size(330, 111);
+            this.btnEmployees.TabIndex = 3;
+            this.btnEmployees.Text = "Employees";
+            this.btnEmployees.UseVisualStyleBackColor = false;
+            this.btnEmployees.Click += new System.EventHandler(this.btnEmployees_Click);
+            // 
+            // linkLabelLogin
+            // 
+            this.linkLabelLogin.AutoSize = true;
+            this.linkLabelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabelLogin.Location = new System.Drawing.Point(695, 9);
+            this.linkLabelLogin.Name = "linkLabelLogin";
+            this.linkLabelLogin.Size = new System.Drawing.Size(44, 18);
+            this.linkLabelLogin.TabIndex = 6;
+            this.linkLabelLogin.TabStop = true;
+            this.linkLabelLogin.Text = "Login";
+            this.linkLabelLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelLogin_LinkClicked);
             // 
             // InformationPanel
             // 
@@ -75,20 +89,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(751, 467);
-            this.Controls.Add(this.btnDeleteEmployee);
-            this.Controls.Add(this.btnAddEmployee);
-            this.Controls.Add(this.btnGetEmployees);
+            this.Controls.Add(this.linkLabelLogin);
+            this.Controls.Add(this.btnPositions);
+            this.Controls.Add(this.btnShops);
+            this.Controls.Add(this.btnEmployees);
             this.Name = "InformationPanel";
-            this.Text = "Information Panel";
+            this.Text = "InformationPanel";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnGetEmployees;
-        private System.Windows.Forms.Button btnAddEmployee;
-        private System.Windows.Forms.Button btnDeleteEmployee;
+        private System.Windows.Forms.Button btnPositions;
+        private System.Windows.Forms.Button btnShops;
+        private System.Windows.Forms.Button btnEmployees;
+        private System.Windows.Forms.LinkLabel linkLabelLogin;
     }
 }
-

@@ -75,23 +75,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="FormAddEmployee.cs">
+    <Compile Include="Forms Shops\FormDeleteShop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAddEmployee.Designer.cs">
+    <Compile Include="Forms Shops\FormDeleteShop.Designer.cs">
+      <DependentUpon>FormDeleteShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Shops\FormAddShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Shops\FormAddShop.Designer.cs">
+      <DependentUpon>FormAddShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Shops\FormGetShops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Shops\FormGetShops.Designer.cs">
+      <DependentUpon>FormGetShops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Employees\FormAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Employees\FormAddEmployee.Designer.cs">
       <DependentUpon>FormAddEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDeleteEmployee.cs">
+    <Compile Include="Forms Employees\FormDeleteEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDeleteEmployee.Designer.cs">
+    <Compile Include="Forms Employees\FormDeleteEmployee.Designer.cs">
       <DependentUpon>FormDeleteEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormGetEmployees.cs">
+    <Compile Include="Forms Employees\FormGetEmployees.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormGetEmployees.Designer.cs">
+    <Compile Include="Forms Employees\FormGetEmployees.Designer.cs">
       <DependentUpon>FormGetEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Employees\EmployeesPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Employees\EmployeesPanel.Designer.cs">
+      <DependentUpon>EmployeesPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="InformationPanel.cs">
       <SubType>Form</SubType>
@@ -101,14 +125,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormAddEmployee.resx">
+    <Compile Include="Forms Shops\ShopsPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Shops\ShopsPanel.Designer.cs">
+      <DependentUpon>ShopsPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms Shops\FormDeleteShop.resx">
+      <DependentUpon>FormDeleteShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Shops\FormAddShop.resx">
+      <DependentUpon>FormAddShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Shops\FormGetShops.resx">
+      <DependentUpon>FormGetShops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Employees\FormAddEmployee.resx">
       <DependentUpon>FormAddEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDeleteEmployee.resx">
+    <EmbeddedResource Include="Forms Employees\FormDeleteEmployee.resx">
       <DependentUpon>FormDeleteEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormGetEmployees.resx">
+    <EmbeddedResource Include="Forms Employees\FormGetEmployees.resx">
       <DependentUpon>FormGetEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Employees\EmployeesPanel.resx">
+      <DependentUpon>EmployeesPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InformationPanel.resx">
       <DependentUpon>InformationPanel.cs</DependentUpon>
@@ -122,6 +164,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms Shops\ShopsPanel.resx">
+      <DependentUpon>ShopsPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

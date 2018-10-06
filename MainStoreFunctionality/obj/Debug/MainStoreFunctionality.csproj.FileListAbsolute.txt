@@ -31,3 +31,8 @@ c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality\bin\Deb
 c:\users\user\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormAddEmployee.resources
 C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.csprojAssemblyReference.cache
 C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormDeleteEmployee.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.EmployeesPanel.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.ShopsPanel.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormDeleteShop.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormAddShop.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormGetShops.resources

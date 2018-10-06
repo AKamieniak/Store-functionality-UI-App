@@ -7,7 +7,7 @@ namespace MainStoreFunctionality.WebApiCore
     public interface IWebApiCoreClient
     {
         //---employees---
-        Task<List<Employee>> GetAllEmployees(int shopId);
+        Task<List<Employee>> GetEmployeesByShop(int shopId);
         Task AddEmployee(Employee employee);
         Task DeleteEmployee(int id);
         Task<int> GetLastIndexEmployees();
