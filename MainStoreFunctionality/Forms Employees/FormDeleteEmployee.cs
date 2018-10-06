@@ -38,7 +38,6 @@ namespace MainStoreFunctionality
             int id = Convert.ToInt32(comboBoxShops.SelectedIndex);
             id++;
 
-
             var employees = await _webApiCoreClient.GetEmployeesByShop(id);
 
             foreach (var employee in employees)
@@ -48,7 +47,6 @@ namespace MainStoreFunctionality
                 string text = $"{employee.Id} {employee.Name } {employee.Surname} {employee.PositionId}";
                 listBoxEmployees.Items.Add(text);
             }
-
         }
 
         private async void buttonDelete_Click(object sender, EventArgs e)
