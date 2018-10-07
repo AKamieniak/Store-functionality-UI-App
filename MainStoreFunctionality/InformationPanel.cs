@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MainStoreFunctionality.Forms_Positions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,7 +32,8 @@ namespace MainStoreFunctionality
 
         private void btnPositions_Click(object sender, EventArgs e)
         {
-
+            PositionsPanel positionsPanel = new PositionsPanel();
+            positionsPanel.Show();
         }
 
         private void linkLabelLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

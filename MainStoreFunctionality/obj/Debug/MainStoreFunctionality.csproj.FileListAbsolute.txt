@@ -36,3 +36,6 @@ C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Deb
 C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormDeleteShop.resources
 C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormAddShop.resources
 C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.FormGetShops.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.Forms_Positions.FormAddPosition.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.Forms_Positions.FormDeletePosition.resources
+C:\Users\User\source\repos\MainStoreFunctionality\MainStoreFunctionality\obj\Debug\MainStoreFunctionality.Forms_Positions.PositionsPanel.resources

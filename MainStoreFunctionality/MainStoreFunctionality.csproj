@@ -75,6 +75,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Forms Positions\FormAddPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Positions\FormAddPosition.Designer.cs">
+      <DependentUpon>FormAddPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Positions\FormDeletePosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Positions\FormDeletePosition.Designer.cs">
+      <DependentUpon>FormDeletePosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms Positions\PositionsPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Positions\PositionsPanel.Designer.cs">
+      <DependentUpon>PositionsPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms Shops\FormDeleteShop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +149,15 @@
     <Compile Include="Forms Shops\ShopsPanel.Designer.cs">
       <DependentUpon>ShopsPanel.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms Positions\FormAddPosition.resx">
+      <DependentUpon>FormAddPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Positions\FormDeletePosition.resx">
+      <DependentUpon>FormDeletePosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Positions\PositionsPanel.resx">
+      <DependentUpon>PositionsPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms Shops\FormDeleteShop.resx">
       <DependentUpon>FormDeleteShop.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,5 +218,6 @@
       <Name>MainStoreFunctionality.WebApiCore</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
